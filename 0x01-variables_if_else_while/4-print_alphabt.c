@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - assigns a random number to int n everytime
- * it executes, and prints it
- * Return: Always 0 (Success)
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
+ * Return: Aways 0 (Sucess)
  */
 int main(void)
 {
-	char c;
-	
-	while (c <= 'z')
+	char ch = 'a';
+
+	while (ch <= 'z')
 	{
-		if (c != 'e' && c != 'q')
+		if (ch != 'e' && ch != 'q')
 		{
-			putchar(c);
+			putchar(ch);
 		}
-		c++;
+		ch++;
 	}
 	putchar('\n');
 	return (0);
