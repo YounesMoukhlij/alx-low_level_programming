@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
 /**
- *  main - assign random nunbers to int and with if will give the right type of the int 
- *  it exectutes, and prints it
- *  Return as always 0  
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
